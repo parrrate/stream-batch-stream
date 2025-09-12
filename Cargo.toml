@@ -1,0 +1,10 @@
+[package]
+name = "stream-batch-stream"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+futures-util = "0.3.31"
+genawaiter = { version = "0.99.1", features = [
+    "futures03",
+], default-features = false }
